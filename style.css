@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(122, 53, 4);
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamebox {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+
+.box {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    font-size: 12vh;
+    background-color: silver;
+    border: 0cap;
+    color: magenta;
+}
